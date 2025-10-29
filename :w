@@ -131,4 +131,12 @@
       0 0 4px currentColor,
       0 0 10px rgba(99, 102, 241, 0.35);
   }
+  .mask-fade-circle {
+    -webkit-mask-image: radial-gradient(
+      circle,
+      var(--primary) 65%,
+      transparent 100%
+    );
+    mask-image: radial-gradient(circle, var(--primary) 65%, transparent 100%);
+  }
 }
