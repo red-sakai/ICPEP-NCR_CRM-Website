@@ -121,7 +121,6 @@
 }
 
 @layer utilities {
-  /* Uses currentColor so the glow matches the text color; adds an extra bluish ring */
   .text-glow {
     text-shadow:
       0 0 6px currentColor,
@@ -132,9 +131,5 @@
     text-shadow:
       0 0 4px currentColor,
       0 0 10px rgba(99, 102, 241, 0.35);
-  }
-
-  .glow-animate {
-    animation: pulseGlow 2.5s ease-in-out infinite;
   }
 }
