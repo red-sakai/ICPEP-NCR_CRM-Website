@@ -43,7 +43,7 @@ function Hero() {
         <hr className="my-4 mt-8 border-t border-[#89E9FF] opacity-20 w-1/2 md:w-[80%] md:mr-20 mx-auto md:mx-0" />
         <div className="flex flex-row gap-1 md:gap-1 justify-center md:justify-start items-center">
           <div className="flex flex-row gap-10 md:gap-30 ">
-            <p className="text-xl md:text-lg font-bold">
+            <div className="text-xl md:text-lg font-bold">
               <CountUp
                 from={0}
                 to={1000}
@@ -55,8 +55,8 @@ function Hero() {
               {"+"}
               <br />
               <p className="text-sm md:text-xs">Members</p>
-            </p>
-            <p className="text-xl md:text-lg font-bold">
+            </div>
+            <div className="text-xl md:text-lg font-bold">
               <CountUp
                 from={0}
                 to={100}
@@ -68,8 +68,8 @@ function Hero() {
               {"+"}
               <br />
               <p className="text-sm md:text-xs">Events </p>
-            </p>
-            <p className="text-xl md:text-lg font-bold">
+            </div>
+            <div className="text-xl md:text-lg font-bold">
               <CountUp
                 from={0}
                 to={33}
@@ -80,7 +80,7 @@ function Hero() {
               />{" "}
               <br />
               <p className="text-sm md:text-xs">Years</p>
-            </p>
+            </div>
           </div>
         </div>
       </div>
