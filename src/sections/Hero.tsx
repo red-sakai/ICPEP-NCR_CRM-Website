@@ -3,18 +3,8 @@ import { Button } from "../components/ui/button";
 
 function Hero() {
   return (
-    <div className="h-screen bg-background text-foreground flex flex-col md:flex-row items-center justify-center m-auto">
+    <div className="h-screen text-foreground flex flex-col md:flex-row items-center justify-center m-auto">
       <div className="relative w-full h-96 md:h-screen mt-8 md:mt-36">
-        <div
-          className="absolute inset-0 z-0 pointer-events-none"
-          style={{
-            background:
-              "radial-gradient(circle at 55% 40%, #032021, transparent 75%)",
-            filter: "blur(80px)",
-            width: "100%",
-            height: "100%",
-          }}
-        ></div>
         <Embed3DModel />
       </div>
       <div className="w-full px-4 md:px-0 ml-10 ">
