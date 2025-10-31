@@ -11,7 +11,8 @@ const FeatureCard = ({ icon, title, description }: FeatureCardProps) => {
   return (
     <div
       className="flex flex-col items-start p-6 sm:p-8 space-y-2 md:space-y-4
-      bg-stone-950 border border-gray-800 rounded-lg shadow-xl 
+      rounded-lg shadow-xl 
+        bg-primary/10 border-2 border-primary/15
       transition-all duration-300 ease-in-out   
       hover:border-blue-500/50 hover:shadow-blue-500/20 
       hover:-translate-y-2 hover:scale-[1.02]
