@@ -65,7 +65,7 @@ export default function About() {
               className="md:hidden space-y-2"
             >
               <AccordionTrigger className="p-0 flex justify-between items-center">
-                <h1 className="text-2xl font-extrabold text-primary text-glow tracking-tight">
+                <h1 className="text-xl font-extrabold text-primary text-glow tracking-tight">
                   About Our Chapter
                 </h1>
               </AccordionTrigger>
