@@ -24,7 +24,7 @@ const BuildCard = ({ className = "" }: BuildCardProps) => {
       <h1 className="text-8xl text-glow tracking-tighter font-medium text-primary/15 transition-all duration-300">
         {"{ }"}
       </h1>
-      <span className="text-xs sm:text-sm text-foreground/60 text-center transition-all duration-300">
+      <span className="text-xs sm:text-sm text-foreground text-center transition-all duration-300">
         Building the future of tech
       </span>
     </Card>
