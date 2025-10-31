@@ -6,7 +6,7 @@ import Particles from "@/components/Particles";
 function AboutPage() {
   return (
     <>
-      <div className="fixed w-screen h-screen">
+      <div className="fixed w-screen h-screen -z-10">
         <Particles
           particleColors={["#ffffff", "#ffffff"]}
           particleCount={300}
