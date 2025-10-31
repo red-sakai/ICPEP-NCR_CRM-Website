@@ -53,7 +53,7 @@ const Vision = () => {
             <Accordion type="single" collapsible className="py-0 mb-0">
               <AccordionItem value="vission" className="md:hidden space-y-2">
                 <AccordionTrigger>
-                  <h1 className="text-2xl md:text-3xl text-glow text-primary font-bold tracking-tight">
+                  <h1 className="text-xl md:text-2xl text-glow text-primary font-bold tracking-tight">
                     Our Vision
                   </h1>
                 </AccordionTrigger>
