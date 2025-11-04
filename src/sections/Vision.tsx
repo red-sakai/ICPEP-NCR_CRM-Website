@@ -24,7 +24,7 @@ const BuildCard = ({ className = "" }: BuildCardProps) => {
       <h1 className="text-8xl text-glow tracking-tighter font-medium text-primary/15 transition-all duration-300">
         {"{ }"}
       </h1>
-      <span className="text-xs sm:text-sm text-foreground/60 text-center transition-all duration-300">
+      <span className="text-xs sm:text-sm text-foreground text-center transition-all duration-300">
         Building the future of tech
       </span>
     </Card>
@@ -53,7 +53,7 @@ const Vision = () => {
             <Accordion type="single" collapsible className="py-0 mb-0">
               <AccordionItem value="vission" className="md:hidden space-y-2">
                 <AccordionTrigger>
-                  <h1 className="text-2xl md:text-3xl text-glow text-primary font-bold tracking-tight">
+                  <h1 className="text-xl md:text-2xl text-glow text-primary font-bold tracking-tight">
                     Our Vision
                   </h1>
                 </AccordionTrigger>
