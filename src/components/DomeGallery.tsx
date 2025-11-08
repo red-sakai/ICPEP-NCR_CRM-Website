@@ -1074,12 +1074,7 @@ export default function DomeGallery({
 
           {/* Centered content from JoinUs.tsx (63-70) */}
           <div className="absolute inset-0 flex flex-col items-center justify-center z-[15] pointer-events-auto gap-2">
-            <h1
-              className="text-4xl md:text-6xl text-center font-bold"
-              style={{
-                textShadow: "0 0 8px #7ff0fe, 0 0 16px #89E9FF",
-              }}
-            >
+            <h1 className="text-4xl md:text-6xl text-center font-bold text-primary text-glow">
               ICpEP.se NCR
             </h1>
             <span className="text-sm md:text-lg text-center font-semibold">
@@ -1091,7 +1086,7 @@ export default function DomeGallery({
               variant="outline"
               asChild
             >
-              <Link to="/register">Register</Link>
+              <Link to="https://passport-icpepsencr.duckdns.org">Register</Link>
             </Button>
           </div>
 

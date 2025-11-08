@@ -1,6 +1,5 @@
 import { lazy, Suspense } from "react";
 const Embed3DModel = lazy(() => import("../components/Embed3DModel"));
-import { Button } from "../components/ui/button";
 import CountUp from "../components/CountUp";
 
 function Hero() {
@@ -15,12 +14,7 @@ function Hero() {
       </div>
       <div>
         <div className="w-full md:ml-0 max-w-xl space-y-3 md:space-y-4">
-          <p
-            className="text-4xl sm:text-5xl md:text-6xl font-bold relative"
-            style={{
-              textShadow: "0 0 8px #7ff0fe, 0 0 16px #89E9FF",
-            }}
-          >
+          <p className="text-4xl sm:text-5xl md:text-6xl font-bold relative text-primary text-glow">
             ICpEP.se NCR
           </p>
           <p className="text-xl sm:text-2xl md:text-3xl font-bold">
@@ -30,21 +24,7 @@ function Hero() {
             ICPEP is a dynamic student organization fostering collaboration,
             innovation, and growth in computer engineering.
           </p>
-          <div className="flex flex-wrap gap-3 md:gap-4 justify-center md:justify-start">
-            <Button
-              className="mt-4 text-primary-foreground bg-white"
-              variant="default"
-            >
-              Login
-            </Button>
-            <Button
-              className="mt-4 border border-opacity-100"
-              style={{ borderColor: "#89E9FF" }}
-              variant="outline"
-            >
-              Register
-            </Button>
-          </div>
+
           <hr className="my-4 mt-8 border-t border-[#89E9FF] opacity-20 w-1/2 md:w-[80%] md:mr-20 mx-auto md:mx-0" />
           <div className="flex flex-row gap-1 md:gap-1 justify-center md:justify-start items-center">
             <div className="flex flex-row gap-10 md:gap-30 ">

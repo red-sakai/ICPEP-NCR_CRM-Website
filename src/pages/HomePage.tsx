@@ -1,5 +1,7 @@
 import Hero from "../sections/Hero";
 import LetterGlitch from "../components/LetterGlitch";
+import Faq from "../sections/Faq";
+import Footer from "../sections/Footer";
 
 function HomePage() {
   return (
@@ -16,6 +18,8 @@ function HomePage() {
       </div>
       <div className="relative z-10">
         <Hero />
+        <Faq />
+        <Footer />
       </div>
     </div>
   );
